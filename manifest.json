@@ -1,0 +1,48 @@
+{
+  "name": "Bashar Pro ERP",
+  "short_name": "Bashar ERP",
+  "description": "نظام إدارة مشاريع المقاول الكهربائي",
+  "start_url": "/bashar-erp/",
+  "scope": "/bashar-erp/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f1225",
+  "theme_color": "#1a56db",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "المشاريع",
+      "short_name": "مشاريع",
+      "url": "/bashar-erp/?page=projects",
+      "description": "إدارة المشاريع"
+    },
+    {
+      "name": "المخزون",
+      "short_name": "مخزون",
+      "url": "/bashar-erp/?page=inventory",
+      "description": "إدارة المخزون"
+    },
+    {
+      "name": "الزيارات",
+      "short_name": "زيارات",
+      "url": "/bashar-erp/?page=visits",
+      "description": "الزيارات الفنية"
+    }
+  ]
+}
